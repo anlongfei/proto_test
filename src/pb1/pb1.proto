@@ -1,0 +1,6 @@
+syntax = "proto2";
+
+package pb1;
+message Condition {
+    repeated string requires = 1;
+}

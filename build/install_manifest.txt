@@ -1,0 +1,5 @@
+/home/anlongfei/work/so_test/install/bin/a.out
+/home/anlongfei/work/so_test/install/lib64/libpb1.so
+/home/anlongfei/work/so_test/install/lib64/libpb2.so
+/home/anlongfei/work/so_test/install/lib64/libso1.so
+/home/anlongfei/work/so_test/install/lib64/libso2.so

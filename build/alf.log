@@ -1,0 +1,89 @@
+/home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -H/home/anlongfei/work/so_test/src -B/home/anlongfei/work/so_test/build --check-build-system CMakeFiles/Makefile.cmake 0
+/home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_progress_start /home/anlongfei/work/so_test/build/CMakeFiles /home/anlongfei/work/so_test/build/CMakeFiles/progress.marks
+make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory `/docker/anlongfei/so_test/build'
+make -f pb1/CMakeFiles/pb1.dir/build.make pb1/CMakeFiles/pb1.dir/depend
+make -f pb2/CMakeFiles/pb2.dir/build.make pb2/CMakeFiles/pb2.dir/depend
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+cd /home/anlongfei/work/so_test/build && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /home/anlongfei/work/so_test/src /home/anlongfei/work/so_test/src/pb1 /home/anlongfei/work/so_test/build /home/anlongfei/work/so_test/build/pb1 /home/anlongfei/work/so_test/build/pb1/CMakeFiles/pb1.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+cd /home/anlongfei/work/so_test/build && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /home/anlongfei/work/so_test/src /home/anlongfei/work/so_test/src/pb2 /home/anlongfei/work/so_test/build /home/anlongfei/work/so_test/build/pb2 /home/anlongfei/work/so_test/build/pb2/CMakeFiles/pb2.dir/DependInfo.cmake --color=
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+make -f pb2/CMakeFiles/pb2.dir/build.make pb2/CMakeFiles/pb2.dir/build
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+make -f pb1/CMakeFiles/pb1.dir/build.make pb1/CMakeFiles/pb1.dir/build
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+[  6%] Building CXX object pb2/CMakeFiles/pb2.dir/__/main.cc.o
+[ 18%] Building CXX object pb2/CMakeFiles/pb2.dir/main_pb2.cc.o
+[ 18%] Building CXX object pb1/CMakeFiles/pb1.dir/__/main.cc.o
+cd /home/anlongfei/work/so_test/build/pb1 && /usr/bin/c++  -Dpb1_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/pb1  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/pb1.dir/__/main.cc.o -c /home/anlongfei/work/so_test/src/main.cc
+cd /home/anlongfei/work/so_test/build/pb2 && /usr/bin/c++  -Dpb2_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/pb2  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/pb2.dir/__/main.cc.o -c /home/anlongfei/work/so_test/src/main.cc
+cd /home/anlongfei/work/so_test/build/pb2 && /usr/bin/c++  -Dpb2_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/pb2  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/pb2.dir/main_pb2.cc.o -c /home/anlongfei/work/so_test/src/pb2/main_pb2.cc
+[ 31%] Building CXX object pb1/CMakeFiles/pb1.dir/pb1.pb.cc.o
+[ 31%] Building CXX object pb2/CMakeFiles/pb2.dir/pb2.pb.cc.o
+cd /home/anlongfei/work/so_test/build/pb2 && /usr/bin/c++  -Dpb2_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/pb2  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/pb2.dir/pb2.pb.cc.o -c /home/anlongfei/work/so_test/src/pb2/pb2.pb.cc
+cd /home/anlongfei/work/so_test/build/pb1 && /usr/bin/c++  -Dpb1_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/pb1  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/pb1.dir/pb1.pb.cc.o -c /home/anlongfei/work/so_test/src/pb1/pb1.pb.cc
+[ 37%] Building CXX object pb1/CMakeFiles/pb1.dir/main_pb1.cc.o
+cd /home/anlongfei/work/so_test/build/pb1 && /usr/bin/c++  -Dpb1_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/pb1  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/pb1.dir/main_pb1.cc.o -c /home/anlongfei/work/so_test/src/pb1/main_pb1.cc
+[ 43%] Linking CXX shared library libpb1.so
+cd /home/anlongfei/work/so_test/build/pb1 && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/pb1.dir/link.txt --verbose=1
+[ 50%] Linking CXX shared library libpb2.so
+cd /home/anlongfei/work/so_test/build/pb2 && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/pb2.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated  -shared -Wl,-soname,libpb1.so -o libpb1.so CMakeFiles/pb1.dir/__/main.cc.o CMakeFiles/pb1.dir/main_pb1.cc.o CMakeFiles/pb1.dir/pb1.pb.cc.o  -L/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib -Wl,-rpath,/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib: -lprotobuf 
+/usr/bin/c++ -fPIC -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated  -shared -Wl,-soname,libpb2.so -o libpb2.so CMakeFiles/pb2.dir/__/main.cc.o CMakeFiles/pb2.dir/main_pb2.cc.o CMakeFiles/pb2.dir/pb2.pb.cc.o  -L/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib -Wl,-rpath,/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib: -lprotobuf 
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+[ 50%] Built target pb2
+[ 50%] Built target pb1
+make -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/depend
+make -f so1/CMakeFiles/so1.dir/build.make so1/CMakeFiles/so1.dir/depend
+make -f so2/CMakeFiles/so2.dir/build.make so2/CMakeFiles/so2.dir/depend
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+cd /home/anlongfei/work/so_test/build && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /home/anlongfei/work/so_test/src /home/anlongfei/work/so_test/src /home/anlongfei/work/so_test/build /home/anlongfei/work/so_test/build /home/anlongfei/work/so_test/build/CMakeFiles/a.out.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+cd /home/anlongfei/work/so_test/build && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /home/anlongfei/work/so_test/src /home/anlongfei/work/so_test/src/so1 /home/anlongfei/work/so_test/build /home/anlongfei/work/so_test/build/so1 /home/anlongfei/work/so_test/build/so1/CMakeFiles/so1.dir/DependInfo.cmake --color=
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+cd /home/anlongfei/work/so_test/build && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_depends "Unix Makefiles" /home/anlongfei/work/so_test/src /home/anlongfei/work/so_test/src/so2 /home/anlongfei/work/so_test/build /home/anlongfei/work/so_test/build/so2 /home/anlongfei/work/so_test/build/so2/CMakeFiles/so2.dir/DependInfo.cmake --color=
+Dependee "/home/anlongfei/work/so_test/src/main.cc" is newer than depends file "/home/anlongfei/work/so_test/build/so2/CMakeFiles/so2.dir/depend.internal".
+Dependee "/home/anlongfei/work/so_test/src/main.cc" is newer than depends file "/home/anlongfei/work/so_test/build/so1/CMakeFiles/so1.dir/depend.internal".
+Clearing dependencies in "/home/anlongfei/work/so_test/build/so2/CMakeFiles/so2.dir/depend.make".
+Clearing dependencies in "/home/anlongfei/work/so_test/build/so1/CMakeFiles/so1.dir/depend.make".
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+make -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/build
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+Scanning dependencies of target so1
+Scanning dependencies of target so2
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+make -f so1/CMakeFiles/so1.dir/build.make so1/CMakeFiles/so1.dir/build
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+make -f so2/CMakeFiles/so2.dir/build.make so2/CMakeFiles/so2.dir/build
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+[ 56%] Building CXX object CMakeFiles/a.out.dir/main.cc.o
+make[2]: Entering directory `/docker/anlongfei/so_test/build'
+/usr/bin/c++   -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated   -o CMakeFiles/a.out.dir/main.cc.o -c /home/anlongfei/work/so_test/src/main.cc
+[ 62%] Building CXX object so2/CMakeFiles/so2.dir/__/main.cc.o
+cd /home/anlongfei/work/so_test/build/so2 && /usr/bin/c++  -Dso2_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/so2  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/so2.dir/__/main.cc.o -c /home/anlongfei/work/so_test/src/main.cc
+[ 75%] Building CXX object so2/CMakeFiles/so2.dir/so2.cc.o
+[ 75%] Building CXX object so1/CMakeFiles/so1.dir/__/main.cc.o
+[ 81%] Building CXX object so1/CMakeFiles/so1.dir/so1.cc.o
+cd /home/anlongfei/work/so_test/build/so2 && /usr/bin/c++  -Dso2_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/so2  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/so2.dir/so2.cc.o -c /home/anlongfei/work/so_test/src/so2/so2.cc
+cd /home/anlongfei/work/so_test/build/so1 && /usr/bin/c++  -Dso1_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/so1  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/so1.dir/__/main.cc.o -c /home/anlongfei/work/so_test/src/main.cc
+cd /home/anlongfei/work/so_test/build/so1 && /usr/bin/c++  -Dso1_EXPORTS -I/home/anlongfei/work/so_test/src -I/home/anlongfei/work/so_test/src/../protobuf-3.5.0/include -I/home/anlongfei/work/so_test/src/so1  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated -fPIC   -o CMakeFiles/so1.dir/so1.cc.o -c /home/anlongfei/work/so_test/src/so1/so1.cc
+[ 87%] Linking CXX executable a.out
+/home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/a.out.dir/link.txt --verbose=1
+/usr/bin/c++  -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated  -rdynamic CMakeFiles/a.out.dir/main.cc.o  -o a.out  -L/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib -Wl,-rpath,/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib:/home/anlongfei/work/so_test/build/pb1: -ldl pb1/libpb1.so -lprotobuf 
+[ 93%] Linking CXX shared library libso2.so
+cd /home/anlongfei/work/so_test/build/so2 && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/so2.dir/link.txt --verbose=1
+[100%] Linking CXX shared library libso1.so
+cd /home/anlongfei/work/so_test/build/so1 && /home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/so1.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated  -shared -Wl,-soname,libso2.so -o libso2.so CMakeFiles/so2.dir/__/main.cc.o CMakeFiles/so2.dir/so2.cc.o  -L/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib -Wl,-rpath,/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib:/home/anlongfei/work/so_test/build/pb1: ../pb1/libpb1.so -lprotobuf 
+/usr/bin/c++ -fPIC -O3 -g -DUSE_STD -Wall -Werror -Wextra -std=c++11 -fpermissive -Wl,--export-dynamic -Wno-unused-macros -Wno-builtin-macro-redefined -Wno-unused-parameter -Wno-ignored-qualifiers -Wno-reorder -Wno-sign-compare -Wno-parentheses -Wno-deprecated  -shared -Wl,-soname,libso1.so -o libso1.so CMakeFiles/so1.dir/__/main.cc.o CMakeFiles/so1.dir/so1.cc.o  -L/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib -Wl,-rpath,/home/anlongfei/work/so_test/src/../protobuf-3.5.0/lib:/home/anlongfei/work/so_test/build/pb1: ../pb1/libpb1.so -lprotobuf 
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+[100%] Built target a.out
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+[100%] Built target so2
+make[2]: Leaving directory `/docker/anlongfei/so_test/build'
+[100%] Built target so1
+make[1]: Leaving directory `/docker/anlongfei/so_test/build'
+/home/anlongfei/work/tools/cmake-3.10.3-Linux-x86_64/bin/cmake -E cmake_progress_start /home/anlongfei/work/so_test/build/CMakeFiles 0
